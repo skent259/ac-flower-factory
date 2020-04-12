@@ -1,11 +1,11 @@
 # AC Flower Factory
 
 
-Welcome! AC Flower Factory is designed to help those playing Animal Crossing New Horizons to **get large amounts of rare hybrid flowers**.  There are many (of there soon will be) guides that show the basics of breeding hybrid flowers and how to get each hybrid.  This site will contain some of that info, but the emphasis is on making tons of a specific kind of flower.  
+Welcome! AC Flower Factory is designed to help those playing Animal Crossing New Horizons to **get large amounts of rare hybrid flowers**.  There are many (or there soon will be) guides that show the basics of breeding hybrid flowers and how to get each hybrid.  This site will contain some of that info, but the emphasis is on making tons of a specific kind of flower.  
 
 ![alt text](img/index_some-hybrids.jfif)
 
-If you want to make a ton of blue roses to make your friends jealous, you've come to the right place.  If you just want to know how to make purple windflowers, this site may be too detailed.  
+If you want to make a ton of blue roses to make your friends jealous, you've come to the right place.  If you just want to know how to make purple windflowers, check out the [Basic Hybrids](basic-hybrids.md) section.
 
 Major credit to Paleh, Aeter, and Astro who have compiled several google docs and spreadsheets uncovering the mechanics of hybridization in Animal Crossing New Horizons and New Leaf.  I first found [Aeter's spreadsheet](https://docs.google.com/spreadsheets/d/1rbYbQ0i3SuTu30KTma5dO4uuJWr_SjOZXA1l4UOIHWo/edit#gid=528655130) detailing the data-mined flower genetics and some initial theories.  Aeter's spreadsheet now points to [Paleh's document](https://docs.google.com/document/d/1ARIQCUc5YVEd01D7jtJT9EEJF45m07NXhAm4fOpNvCs/edit) which details how ACNH flower heredity is "based on basic [Mendelian genetics](https://en.wikipedia.org/wiki/Mendelian_inheritance), the same system that’s normally taught in school. Since it’s Mendelian genetics, you can also make use of [punnett squares](https://scienceprimer.com/punnett-square-calculator) to predict offspring."  
 
