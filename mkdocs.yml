@@ -1,6 +1,7 @@
 site_name: AC Flower Factory
 nav: 
   - Home: index.md
+  - Basic Hybrids: basic-hybrids.md
   - Windflowers: windflowers.md
   # - R: R.md
   # - R Markdown: Rmd.md
