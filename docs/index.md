@@ -1,6 +1,18 @@
-# Handy Code to Remember and Other Documentation
+# AC Flower Factory
 
-This site serves as personal documentation for some handy bits of code and techniques for doing certain things that I can't usually remember.  
+Welcome! AC Flower Factory is designed to help those playing Animal Crossing New Horizons to build large amounts of rare hybrid flowers.  There are many (of there soon will be) guides that show the basics of breeding hybrid flowers and how to get each hybrid.  This site will contain some of that info, but the emphasis is on making tons of a specific kind of flower.  
+
+If you want to make a ton of blue roses to make your friends jealous, you've come to the right place.  If you just want to know how to make purple windflowers, this site may be too detailed.  
+
+<!-- Basics of breeding, mention how I'm going to try and avoid details -->
+
+<!-- April showers bring animal crossing flowers -->
+<!-- Link to Paleh's stuff and the other documents -->
+<!-- Have a technical explanation section -->
+
+
+
+
 
 
 <!-- For full documentation visit [mkdocs.org](https://mkdocs.org).

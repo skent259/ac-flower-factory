@@ -1,15 +1,16 @@
-site_name: Documentation
+site_name: AC Flower Factory
 nav: 
-  # - Home: index.md
-  - R: R.md
-  - R Markdown: Rmd.md
-  - Matlab: matlab.md
+  - Home: index.md
+  - Windflowers: windflowers.md
+  # - R: R.md
+  # - R Markdown: Rmd.md
+  # - Matlab: matlab.md
   # - Linux: Linux.md
-  - Shell: shell.md
-  - Git: git_commands.md
-  - TeX: tex.md
-  - Web Related: web.md
-  - Mkdocs: mkdocs.md
+  # - Shell: shell.md
+  # - Git: git_commands.md
+  # - TeX: tex.md
+  # - Web Related: web.md
+  # - Mkdocs: mkdocs.md
 
 theme:
   name: 'material'
