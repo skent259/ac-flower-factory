@@ -68,12 +68,17 @@ Windflowers use 3 genes: R, O, W.
 
 <center>
 
-| Name          | Genetics |
-|---------------|----------|
-| White (seed)  | rr-oo-Ww |
-| Red (seed)    | RR-oo-WW |
-| Orange (seed) | rr-OO-WW |
-| Blue          | rr-oo-ww |
-|               |          |
+| Name           | Genetics |
+|----------------|----------|
+| White (seed)   | rr-oo-Ww |
+| Red (seed)     | RR-oo-WW |
+| Orange (seed)  | rr-OO-WW |
+| Blue           | rr-oo-ww |
+| Pink           | rr-oo-ww |
+| Pink (special) | Rr-Oo-Ww |
+| Red (special)  | Rr-oo-Ww |
+| Purple         | RR-**-ww |
 
 </center>
+
+\* indicates that this gene can be anything.  
