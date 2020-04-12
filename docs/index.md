@@ -1,8 +1,13 @@
 # AC Flower Factory
 
-Welcome! AC Flower Factory is designed to help those playing Animal Crossing New Horizons to build large amounts of rare hybrid flowers.  There are many (of there soon will be) guides that show the basics of breeding hybrid flowers and how to get each hybrid.  This site will contain some of that info, but the emphasis is on making tons of a specific kind of flower.  
+
+Welcome! AC Flower Factory is designed to help those playing Animal Crossing New Horizons to **get large amounts of rare hybrid flowers**.  There are many (of there soon will be) guides that show the basics of breeding hybrid flowers and how to get each hybrid.  This site will contain some of that info, but the emphasis is on making tons of a specific kind of flower.  
+
+![alt text](img/index_some-hybrids.jfif)
 
 If you want to make a ton of blue roses to make your friends jealous, you've come to the right place.  If you just want to know how to make purple windflowers, this site may be too detailed.  
+
+Major credit to Paleh, Aeter, and Astro
 
 <!-- Basics of breeding, mention how I'm going to try and avoid details -->
 
