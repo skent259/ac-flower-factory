@@ -1,7 +1,10 @@
 site_name: AC Flower Factory
 nav: 
   - Home: index.md
+  # - Getting Started: 
   - Basic Hybrids: basic-hybrids.md
+  - Breeding Patterns: breeding-patterns.md
+  - Cosmos: cosmos.md
   - Windflowers: windflowers.md
   # - R: R.md
   # - R Markdown: Rmd.md

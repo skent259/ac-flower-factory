@@ -128,8 +128,8 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 |----------------|----------------|----------------|-------:|--------------------------------------|
 | Pink           | Red (seed)     | Orange (seed)  | 100%   | -                                    |
 | Blue           | White (seed)   | White (seed)   | 25%    | White (seed), White                  |
-| Pink (Special) | Pink           | Blue           | 25%    | Red (Special), Orange, White (seed)  |
+| Red (Special)  | Blue           | Red (seed)     | 100%   | -                                    |
 | Red (Special)  | Pink           | Blue           | 25%    | Pink (Special), Orange, White (seed) |
-| Purple         | Pink (Special) | Pink (Special) | 6.25%  | All                                  |
+| Pink (Special) | Pink           | Blue           | 25%    | Red (Special), Orange, White (seed)  |
 | Purple         | Red (Special)  | Red (Special)  | 6.25%  | All                                  |
-
+| Purple         | Pink (Special) | Pink (Special) | 6.25%  | All                                  |

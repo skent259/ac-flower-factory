@@ -18,10 +18,11 @@ Windflowers might be my favorite overall flower.  They don't have the pedigree t
 |----------------|----------------|----------------|-------:|--------------------------------------|
 | Pink           | Red (seed)     | Orange (seed)  | 100%   | -                                    |
 | Blue           | White (seed)   | White (seed)   | 25%    | White (seed), White                  |
-| Pink (Special) | Pink           | Blue           | 25%    | Red (Special), Orange, White (seed)  |
+| Red (Special)  | Blue           | Red (seed)     | 100%   | -                                    |
 | Red (Special)  | Pink           | Blue           | 25%    | Pink (Special), Orange, White (seed) |
-| Purple         | Pink (Special) | Pink (Special) | 6.25%  | All                                  |
+| Pink (Special) | Pink           | Blue           | 25%    | Red (Special), Orange, White (seed)  |
 | Purple         | Red (Special)  | Red (Special)  | 6.25%  | All                                  |
+| Purple         | Pink (Special) | Pink (Special) | 6.25%  | All                                  |
 
 </center>
 
@@ -46,13 +47,20 @@ Purple are the rarest of the windflower variety.  They are tricky, but follow th
 
 ### Getting Purples Fast
 
-Most guides I see are showing the special pink method for getting purples, but there's a trick to using special reds that will bring you purples *twice as fast*.  Here's the secret:
+Most guides I see are showing the special pink method for getting purples, but there's a trick to using special reds that will bring you purples *at least twice as fast* (updated based on [Backwardsn's reserach](https://docs.google.com/document/d/1anxm3WwEKyh0_-l_lZIAUETaa_q432Px3griacQ3NcU/edit#heading=h.d5gne7gi40vy)).  Here's the secret:
 
-1. Start with a **Pink** flower from a Red (seed) and Orange (seed) hybridization, and a **Blue** flower from a **White (seed)** and a **White (seed)** hybridization. 
+1. Make **Blue** hybrid flowers from a **White (seed)** and a **White (seed)** hybridization. 
+2. Breed **Blue** flowers with **Red (seed)** flowers in a [blocked off pattern](breeding-patterns.md#blocked-off-patterns) to create **Red (special)** flowers.
+    - The blocked off pattern is important to prevent **Red (seed)** clones from appearing.  It's currently thought that any flower hasa chance to create a clone of itself instead of a hybrid.  
+    - Provided there are no clones, 100% of the hybrids from the breeding will be **Red (special)** flowers.
+3. Plant all of the **Red (special)** flowers into another plot in a diagonal pattern.  Each pair of flowers that are touching will have 6.25% of their hybrids become **Purple**.  Take purples and go to the next section.  The remaining non-purple hybrids can have any kind of genetics.  
+4. Save all of the blue flowers from Step 3. Roughly 2/3 of them are **Blue (special) **hybrids which can be used to make more purples.  See the next section for more details.  
+
+<!-- 4. Start with a **Pink** flower from a Red (seed) and Orange (seed) hybridization, and a **Blue** flower from a **White (seed)** and a **White (seed)** hybridization. 
     - IT'S IMPORTANT TO USE SEED FLOWERS HERE.  Otherwise, you may not have the correct genes and you may be wasting your time.  
-2. Breed your **Pink** and **Blue** flowers.  Depending on how many of each, you can use isolated X patterns, cross patterns, or connected cross patterns.  Just make sure each blue is only touching pink and each pink is only touching blue.  4 flowers can come from this hybridization: **Pink (special), Red (special), Orange, and White (seed)**.  
-3. Plant all of the **Pink (special)** and **Red (special)** flowers into another plot in a diagonal pattern.  It doesn't matter how you arrange the pinks and reds.  Each pair of flowers that are touching will have 6.25% of their hybrids become **Purple**.  Take purples and go to the next section.  The remaining non-purple hybrids can have any kind of genetics, and so it's safest to get rid of these flowers (or plant them around your island).  
+5. Breed your **Pink** and **Blue** flowers.  Depending on how many of each, you can use isolated X patterns, cross patterns, or connected cross patterns.  Just make sure each blue is only touching pink and each pink is only touching blue.  4 flowers can come from this hybridization: **Pink (special), Red (special), Orange, and White (seed)**.   -->
 
+<!-- TODO: link to blocked off pattern example -->
 <!-- TODO: Add percentages of other hybrids in case people care about those -->
 
 Notes: It helps to reserve a fairly large space of land for step 3, as you will want to accumulate many Pink (special) and Red (special) flowers to increase the chances of getting purples.  
@@ -77,6 +85,7 @@ Windflowers use 3 genes: R, O, W.
 | Pink           | rr-oo-ww |
 | Pink (special) | Rr-Oo-Ww |
 | Red (special)  | Rr-oo-Ww |
+| Blue (special) | Rr-oo-ww |
 | Purple         | RR-**-ww |
 
 </center>
