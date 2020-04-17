@@ -52,11 +52,10 @@ Similar idea to the cross pattern, but if there's no rare flower, you get 4 pair
 </table>
 </center>
 
-TODO: edit flowers in these patterns
 
 ## Blocked-off Patterns
 
-When you are trying to make a specific type of flower, it can sometimes help to block off certain flowers in the above patterns to ensure that their clones don't appear.  This makes the most sense in an example.
+When you are trying to make a specific type of flower, it may help to block off certain flowers in the above patterns to ensure that their clones don't appear.  The idea is that in ACNH, flowers can clone themselves.  I've never seen this happen in a breeding pattern where the flower is touching others of the same species, but just in case, you might use a blocked-off pattern.  This makes the most sense in an example.
 
 
 ### Example: Blocked-off X

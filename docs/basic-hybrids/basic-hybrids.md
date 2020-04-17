@@ -1,5 +1,7 @@
 # Basic Hybrids
 
+This section is dedicated to an accurate listing of how to get each hybrid variety for each flower in Animal Crossing New Horizons.  It is based on the brilliant work of Paleh and Aeter (and many others), which can be found in the following [Google Document](https://docs.google.com/document/d/1ARIQCUc5YVEd01D7jtJT9EEJF45m07NXhAm4fOpNvCs/edit).  
+
 Jump to a flower species: 
 
 - [Cosmos](basic-hybrids.md#cosmos)
@@ -11,8 +13,6 @@ Jump to a flower species:
 - [Tulips](basic-hybrids.md#tulips)
 - [Windflowers](basic-hybrids.md#windflowers)
 
-
-This section is dedicated to an accurate listing of how to get each hybrid variety for each flower in Animal Crossing New Horizons.  It is based on the brilliant work of Paleh and Aeter (and many others), which can be found in the following [Google Document](https://docs.google.com/document/d/1ARIQCUc5YVEd01D7jtJT9EEJF45m07NXhAm4fOpNvCs/edit).  
 
 For flowers to breed, they need to be touching (diagonal is okay) and watered.  It's unclear how many hybrids will spawn each new day.  
 

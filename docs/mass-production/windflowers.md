@@ -3,14 +3,6 @@
 Windflowers might be my favorite overall flower.  They don't have the pedigree that Roses do, but I personally think they look great.  Windflowers come in Red, Orange, and White seeds, and you can make Pink, Blue, and Purple hybrids.  Pink and Blue are straightforward, but purple hybrids take some time to make.  
 
 <center>
-
-![](https://i.imgur.com/GhAZwA3.png)  ![](https://i.imgur.com/IHMXUnA.png) ![](https://i.imgur.com/iraeQHv.png)
-
-![](https://i.imgur.com/0KiHi1e.png)  ![](https://i.imgur.com/F5W0X0b.png) ![](https://i.imgur.com/lxv3v8f.png)
-
-</center>
-
-<center>
 <img src="https://i.imgur.com/GhAZwA3.png" alt="drawing" height="80" align="top"/>
 <img src="https://i.imgur.com/IHMXUnA.png" alt="drawing" height="80" align="top"/>
 <img src="https://i.imgur.com/iraeQHv.png" alt="drawing" height="80" align="top"/>
