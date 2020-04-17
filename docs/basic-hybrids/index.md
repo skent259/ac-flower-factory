@@ -4,19 +4,21 @@ This section is dedicated to an accurate listing of how to get each hybrid varie
 
 Jump to a flower species: 
 
-- [Cosmos](basic-hybrids.md#cosmos)
-- [Hyacinths](basic-hybrids.md#hyacinths)
-- [Lilies](basic-hybrids.md#lilies)
-- [Mums](basic-hybrids.md#mums)
-- [Pansies](basic-hybrids.md#pansies)
-- [Roses](basic-hybrids.md#roses)
-- [Tulips](basic-hybrids.md#tulips)
-- [Windflowers](basic-hybrids.md#windflowers)
+  - [Cosmos](#cosmos)
+  - [Hyacinths](#hyacinths)
+  - [Lilies](#lilies)
+  - [Mums](#mums)
+  - [Pansies](#pansies)
+  - [Roses](#roses)
+  - [Tulips](#tulips)
+  - [Windflowers](#windflowers)
 
 
 For flowers to breed, they need to be touching (diagonal is okay) and watered.  It's unclear how many hybrids will spawn each new day.  
 
 The following tables show how to get each hybrid color.  **Note**: this is *not* every possible way to get the hybrid color flower.  The tables show the *most common* ways to get the hybrids, usually starting from seed flowers.  In general, it is risky to use bred versions of standard flowers (for example, a white flower that comes from two white flower parents), since they may have differing genes.  If the "Other possible colors" column is "TBD", I haven't verified the combinations myself (and am relying on Paleh's guide).
+
+
 
 
 ## Cosmos

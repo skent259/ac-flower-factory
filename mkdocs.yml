@@ -1,10 +1,10 @@
 site_name: AC Flower Factory
 nav: 
   - Getting Started: index.md
-  - Basic Hybrids: basic-hybrids/basic-hybrids.md
+  # - Basic Hybrids: basic-hybrids/index.md
   # - Getting Started: 
   - Basic Hybrids: 
-    - Home: basic-hybrids/basic-hybrids.md
+    - Home: basic-hybrids/index.md
   - Breeding Patterns: breeding-patterns.md
   - Mass Production: 
     - Cosmos: mass-production/cosmos.md
