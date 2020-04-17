@@ -52,10 +52,10 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 
 | Hybrid Color | Parent 1   | Parent 2      | Chance | Other possible colors |
 |--------------|------------|---------------|--------|-----------------------|
-| Orange       | Red (seed) | Yellow (seed) | 50%    | TBD                   |
-| Black        | Red (seed) | Red (seed)    | 25%    | TBD                   |
-| Pink         | Red (seed) | Red (seed)    | 25%    | TBD                   |
-| Pink         | Red (seed) | White (seed)  | 50%    | TBD                   |
+| Orange       | Red (seed) | Yellow (seed) | 50%    | Yellow                |
+| Black        | Red (seed) | Red (seed)    | 25%    | Pink, Red (seed)      |
+| Pink         | Red (seed) | Red (seed)    | 25%    | Black, Red (seed)     |
+| Pink         | Red (seed) | White (seed)  | 50%    | White                 |
 
 </center>
 
@@ -112,12 +112,12 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 
 <center>
 
-| Hybrid Color | Parent 1   | Parent 2      | Chance | Other possible colors |
-|--------------|------------|---------------|--------|-----------------------|
-| Orange       | Red (seed) | Yellow (seed) | 50%    | TBD                   |
-| Black        | Red (seed) | Red (seed)    | 50%    | TBD                   |
-| Pink         | Red (seed) | White (seed)  | 50%    | TBD                   |
-| Purple       | Orange     | Orange        | 6.25%  | TBD                   |
+| Hybrid Color | Parent 1   | Parent 2      | Chance | Other possible colors             |
+|--------------|------------|---------------|--------|-----------------------------------|
+| Orange       | Red (seed) | Yellow (seed) | 50%    | Yellow                            |
+| Black        | Red (seed) | Red (seed)    | 25%    | Red (seed), Red                   |
+| Pink         | Red (seed) | White (seed)  | 50%    | Red, White                        |
+| Purple       | Orange     | Orange        | 6.25%  | Orange, Yellow, Black, Red, White |
 
 </center>
 

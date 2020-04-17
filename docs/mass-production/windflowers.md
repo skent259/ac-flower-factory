@@ -50,7 +50,7 @@ Purple are the rarest of the windflower variety.  They are tricky, but follow th
 Most guides I see are showing the special pink method for getting purples, but there's a trick to using special reds that will bring you purples *at least twice as fast* (updated based on [Backwardsn's reserach](https://docs.google.com/document/d/1anxm3WwEKyh0_-l_lZIAUETaa_q432Px3griacQ3NcU/edit#heading=h.d5gne7gi40vy)).  Here's the secret:
 
 1. Make **Blue** hybrid flowers from a **White (seed)** and a **White (seed)** hybridization. 
-2. Breed **Blue** flowers with **Red (seed)** flowers in a [blocked off pattern](breeding-patterns.md#blocked-off-patterns) to create **Red (special)** flowers.
+2. Breed **Blue** flowers with **Red (seed)** flowers in a [blocked off pattern](/../breeding-patterns.md#blocked-off-patterns) to create **Red (special)** flowers.
     - The blocked off pattern is important to prevent **Red (seed)** clones from appearing.  It's currently thought that any flower hasa chance to create a clone of itself instead of a hybrid.  
     - Provided there are no clones, 100% of the hybrids from the breeding will be **Red (special)** flowers.
 3. Plant all of the **Red (special)** flowers into another plot in a diagonal pattern.  Each pair of flowers that are touching will have 6.25% of their hybrids become **Purple**.  Take purples and go to the next section.  The remaining non-purple hybrids can have any kind of genetics.  

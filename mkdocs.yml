@@ -1,11 +1,15 @@
 site_name: AC Flower Factory
 nav: 
-  - Home: index.md
+  - Getting Started: index.md
+  - Basic Hybrids: basic-hybrids/basic-hybrids.md
   # - Getting Started: 
-  - Basic Hybrids: basic-hybrids.md
+  - Basic Hybrids: 
+    - basic-hybrids/basic-hybrids.md
   - Breeding Patterns: breeding-patterns.md
-  - Cosmos: cosmos.md
-  - Windflowers: windflowers.md
+  - Mass Production: 
+    - Cosmos: mass-production/cosmos.md
+    - Windflowers: mass-production/windflowers.md
+    - Roses: mass-production/roses.md
   # - R: R.md
   # - R Markdown: Rmd.md
   # - Matlab: matlab.md
@@ -20,7 +24,10 @@ theme:
   name: 'material'
   palette: 
     primary: teal
+  features:
+    - tabs
   
 markdown_extensions:
   - toc:
       toc_depth: 3
+  - pymdownx.tabbed
