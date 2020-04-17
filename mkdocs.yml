@@ -26,7 +26,10 @@ theme:
     primary: teal
   features:
     - tabs
-  
+  icon:
+    logo: material/flower
+    # logo: material/local-florist
+    
 markdown_extensions:
   - toc:
       toc_depth: 3

@@ -10,6 +10,15 @@ Windflowers might be my favorite overall flower.  They don't have the pedigree t
 
 </center>
 
+<center>
+<img src="https://i.imgur.com/GhAZwA3.png" alt="drawing" height="80" align="top"/>
+<img src="https://i.imgur.com/IHMXUnA.png" alt="drawing" height="80" align="top"/>
+<img src="https://i.imgur.com/iraeQHv.png" alt="drawing" height="80" align="top"/>
+<img src="https://i.imgur.com/0KiHi1e.png" alt="drawing" height="80" align="top"/>
+<img src="https://i.imgur.com/F5W0X0b.png" alt="drawing" height="80" align="top"/>
+<img src="https://i.imgur.com/lxv3v8f.png" alt="drawing" height="80" align="top"/>
+</center>
+
 ## How to get each hybrid
 
 <center>
