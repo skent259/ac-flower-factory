@@ -37,7 +37,7 @@ Mass production of Orange and Pink cosmos is fairly straightforward, so I will f
     - Only about 1/16 of the hybrids here will be Black, and many of them will be Orange. The chances depend on the Orange hybrid genetics. 
     - It's perfectly fine to add orange hybrids that you may get from this step to the Orange plot. Not all of the orange hybrids made in Step 3 can produce Black hybrids, but most can, and you are better off going to quantity here.  
 3. Replace the **Orange** hybrids in Step 2. with **Black** as you get them.  Most Black and Orange pairs will produce hybrids that are Black cosmos 25% of the time (sometimes this is 50%).  When you have multiple Black cosmos, always place them so that they touch as many other Black cosmos as possible.  
-    - Eventually the entire plot will be filled with Black cosmos, which will only many Black cosmos when bred together!
+    - Eventually the entire plot will be filled with Black cosmos, which will mostly make Black cosmos when bred together! You may still get some Red cosmos, but there should be many more Black cosmos.
 
 
 ## Details: Genetics of each flower

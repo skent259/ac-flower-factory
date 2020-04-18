@@ -16,9 +16,7 @@ Jump to a flower species:
 
 For flowers to breed, they need to be touching (diagonal is okay) and watered.  It's unclear how many hybrids will spawn each new day.  
 
-The following tables show how to get each hybrid color.  **Note**: this is *not* every possible way to get the hybrid color flower.  The tables show the *most common* ways to get the hybrids, usually starting from seed flowers.  In general, it is risky to use bred versions of standard flowers (for example, a white flower that comes from two white flower parents), since they may have differing genes.  If the "Other possible colors" column is "TBD", I haven't verified the combinations myself (and am relying on Paleh's guide).
-
-
+The following tables show how to get each hybrid color.  **Note**: this is *not* every possible way to get the hybrid color flower.  The tables show the *most common* ways to get the hybrids, usually starting from seed flowers.  In general, it is risky to use bred versions of standard flowers (for example, a white flower that comes from two white flower parents), since they may have differing genes.  
 
 
 ## Cosmos
@@ -39,11 +37,11 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 <center>
 
 | Hybrid Color | Parent 1     | Parent 2      | Chance | Other possible colors |
-|--------------|--------------|---------------|--------|-----------------------|
-| Orange       | Red (seed)   | Yellow (seed) | 50%    | TBD                   |
-| Pink         | Red (seed)   | White (seed)  | 50%    | TBD                   |
-| Blue         | White (seed) | White (seed)  | 25%    | TBD                   |
-| Purple       | Orange       | Orange        | 6.25%  | TBD                   |
+|--------------|--------------|---------------|-------:|-----------------------|
+| Orange       | Red (seed)   | Yellow (seed) | 50%    | Yellow                |
+| Pink         | Red (seed)   | White (seed)  | 50%    | Red, White            |
+| Blue         | White (seed) | White (seed)  | 25%    | White (seed), White   |
+| Purple       | Orange       | Orange        | 6.25%  | Anything except Pink  |
 
 </center>
 
@@ -53,7 +51,7 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 <center>
 
 | Hybrid Color | Parent 1   | Parent 2      | Chance | Other possible colors |
-|--------------|------------|---------------|--------|-----------------------|
+|--------------|------------|---------------|-------:|-----------------------|
 | Orange       | Red (seed) | Yellow (seed) | 50%    | Yellow                |
 | Black        | Red (seed) | Red (seed)    | 25%    | Pink, Red (seed)      |
 | Pink         | Red (seed) | Red (seed)    | 25%    | Black, Red (seed)     |
@@ -67,13 +65,13 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 <center>
 
 | Hybrid Color     | Parent 1         | Parent 2         | Chance | Other possible colors |
-|------------------|------------------|------------------|--------|-----------------------|
+|------------------|------------------|------------------|-------:|-----------------------|
 | Pink             | Red (seed)       | White (seed)     | 100%   | -                     |
-| Purple           | White (seed)     | White (seed)     | 25%    | TBD                   |
+| Purple           | White (seed)     | White (seed)     | 25%    | White (seed), White   |
 | Yellow (special) | Red (seed)       | Yellow (seed)    | 100%   | -                     |
-| Green            | Yellow (special) | Yellow (special) | 6.25%  | TBD                   |
-| Purple (special) | Yellow (special) | Yellow (special) | 25%    | TBD                   |
-| Green            | Purple (special) | Purple (special) | 25%    | TBD                   |
+| Green            | Yellow (special) | Yellow (special) | 6.25%  | Anything              |
+| Purple (special) | Yellow (special) | Yellow (special) | 25%    | Anything              |
+| Green            | Purple (special) | Purple (special) | 25%    | Purple (special), Yellow (special) |
 
 </center>
 
@@ -83,7 +81,7 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 <center>
 
 | Hybrid Color  | Parent 1      | Parent 2      | Chance | Other possible colors |
-|---------------|---------------|---------------|--------|-----------------------|
+|---------------|---------------|---------------|-------:|-----------------------|
 | Orange        | Red (seed)    | Yellow (seed) | 100%   | -                     |
 | Blue          | White (seed)  | White (seed)  | 25%    | White (seed), White   |
 | Red (special) | Red (seed)    | Blue          | 100%   | -                     |
@@ -97,15 +95,15 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 <center>
 
 | Hybrid Color  | Parent 1      | Parent 2      | Chance | Other possible colors  |
-|---------------|---------------|---------------|--------|------------------------|
-| Orange        | Red (seed)    | Yellow (seed) | 50%    | TBD                    |
+|---------------|---------------|---------------|-------:|------------------------|
+| Orange        | Red (seed)    | Yellow (seed) | 50%    | Yellow                 |
 | Black         | Red (seed)    | Red (seed)    | 25%    | Red (seed), Pink       |
 | Pink          | Red (seed)    | Red (seed)    | 25%    | Red (seed), Black      |
-| Pink          | Red (seed)    | White (seed)  | 50%    | TBD                    |
+| Pink          | Red (seed)    | White (seed)  | 50%    | Red                    |
 | Purple        | White (seed)  | White (seed)  | 25%    | White (seed), White    |
 | Orange        | Black         | Yellow (seed) | 100%   | -                      |
-| Red (special) | Orange        | Purple        | 25%    | Red (not special), TBD |
-| Blue          | Red (special) | Red (special) | 1.5%   | TBD                    |
+| Red (special) | Orange        | Purple        | 25%    | Red (not special), White |
+| Blue          | Red (special) | Red (special) | 1.5%   | Anything except Pink   |
 
 </center>
 
@@ -115,11 +113,14 @@ The following tables show how to get each hybrid color.  **Note**: this is *not*
 <center>
 
 | Hybrid Color | Parent 1   | Parent 2      | Chance | Other possible colors             |
-|--------------|------------|---------------|--------|-----------------------------------|
-| Orange       | Red (seed) | Yellow (seed) | 50%    | Yellow                            |
+|--------------|------------|---------------|-------:|-----------------------------------|
+| Orange       | Red (seed) | Yellow (seed) | 50%    | Yellow (special)                  |
+| Yellow (special) | Red (seed) | Yellow (seed) | 50%    | Orange                        |
 | Black        | Red (seed) | Red (seed)    | 25%    | Red (seed), Red                   |
 | Pink         | Red (seed) | White (seed)  | 50%    | Red, White                        |
-| Purple       | Orange     | Orange        | 6.25%  | Orange, Yellow, Black, Red, White |
+| Purple       | Orange     | Orange        | 6.25%  | Anything except Pink              |
+| Purple       | Yellow (special)  | Orange | 6.25%  | Anything                          |
+| Purple       | Yellow (special)  | Yellow (special)  | 6.25%  | Anything               |
 
 </center>
 
