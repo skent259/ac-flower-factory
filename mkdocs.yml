@@ -5,21 +5,13 @@ nav:
   # - Getting Started: 
   - Basic Hybrids: 
     - Home: basic-hybrids/index.md
+    - Mystery Island Hybrids: basic-hybrids/mystery-island.md
   - Breeding Patterns: breeding-patterns.md
   - Mass Production: 
     - Cosmos: mass-production/cosmos.md
     - Windflowers: mass-production/windflowers.md
     - Roses: mass-production/roses.md
-  # - R: R.md
-  # - R Markdown: Rmd.md
-  # - Matlab: matlab.md
-  # - Linux: Linux.md
-  # - Shell: shell.md
-  # - Git: git_commands.md
-  # - TeX: tex.md
-  # - Web Related: web.md
-  # - Mkdocs: mkdocs.md
-
+  
 theme:
   name: 'material'
   palette: 

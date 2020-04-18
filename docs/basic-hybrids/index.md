@@ -18,6 +18,8 @@ For flowers to breed, they need to be touching (diagonal is okay) and watered.  
 
 The following tables show how to get each hybrid color.  **Note**: this is *not* every possible way to get the hybrid color flower.  The tables show the *most common* ways to get the hybrids, usually starting from seed flowers.  In general, it is risky to use bred versions of standard flowers (for example, a white flower that comes from two white flower parents), since they may have differing genes.  
 
+You can also see what hybrids can be made from the hybrids found at a few rare mystery-islands [in this guide](mystery-island.md). 
+
 
 ## Cosmos
 
