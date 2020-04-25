@@ -307,30 +307,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#x-pattern" class="md-nav__link">
-    X Pattern
+  <a href="#patterns-for-breeding-identical-parent-flowers" class="md-nav__link">
+    Patterns for Breeding Identical Parent Flowers
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cross-pattern" class="md-nav__link">
-    Cross Pattern
+  <a href="#patterns-for-breeding-different-parent-flowers" class="md-nav__link">
+    Patterns for Breeding Different Parent Flowers
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#blocked-off-patterns" class="md-nav__link">
-    Blocked-off Patterns
-  </a>
-  
-    <nav class="md-nav" aria-label="Blocked-off Patterns">
+    <nav class="md-nav" aria-label="Patterns for Breeding Different Parent Flowers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example-blocked-off-x" class="md-nav__link">
-    Example: Blocked-off X
+  <a href="#when-the-offspring-is-the-same-color-as-one-parent" class="md-nav__link">
+    When the offspring is the same color as one parent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-the-offspring-is-a-different-color" class="md-nav__link">
+    When the offspring is a different color
   </a>
   
 </li>
@@ -341,8 +341,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#blocked-off-pattern-large" class="md-nav__link">
-    Blocked-off Pattern (large)
+  <a href="#patterns-for-cloning-flowers" class="md-nav__link">
+    Patterns for Cloning Flowers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references-to-other-guides" class="md-nav__link">
+    References to other guides:
   </a>
   
 </li>
@@ -446,30 +453,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#x-pattern" class="md-nav__link">
-    X Pattern
+  <a href="#patterns-for-breeding-identical-parent-flowers" class="md-nav__link">
+    Patterns for Breeding Identical Parent Flowers
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cross-pattern" class="md-nav__link">
-    Cross Pattern
+  <a href="#patterns-for-breeding-different-parent-flowers" class="md-nav__link">
+    Patterns for Breeding Different Parent Flowers
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#blocked-off-patterns" class="md-nav__link">
-    Blocked-off Patterns
-  </a>
-  
-    <nav class="md-nav" aria-label="Blocked-off Patterns">
+    <nav class="md-nav" aria-label="Patterns for Breeding Different Parent Flowers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example-blocked-off-x" class="md-nav__link">
-    Example: Blocked-off X
+  <a href="#when-the-offspring-is-the-same-color-as-one-parent" class="md-nav__link">
+    When the offspring is the same color as one parent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-the-offspring-is-a-different-color" class="md-nav__link">
+    When the offspring is a different color
   </a>
   
 </li>
@@ -480,8 +487,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#blocked-off-pattern-large" class="md-nav__link">
-    Blocked-off Pattern (large)
+  <a href="#patterns-for-cloning-flowers" class="md-nav__link">
+    Patterns for Cloning Flowers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references-to-other-guides" class="md-nav__link">
+    References to other guides:
   </a>
   
 </li>
@@ -503,199 +517,136 @@
                 
                 
                 <h1 id="breeding-patterns">Breeding Patterns</h1>
-<p>How should you plant your flower?  That depends on what kind of hybrids you are trying to make.  The basics of breeding suggest that any flowers of the same species that are touching have a chance to make a hybrid (flowers can touch diagonal).  Each flower also has a chance to clone itself, although there is not a consensus on whether this happens when the flower is touching another flower of the same species.  To be safe, it's best to assume that any flower can clone at any time.  </p>
-<p>There's a couple breeding patterns I will reference often throughout these guides, so I figured that I would show diagrams of them here:</p>
-<h2 id="x-pattern">X Pattern</h2>
-<p>A basic diagonal pattern which may be useful if you have a rare flower in the center.  There are 4 possible pairs of flowers that can hybridize (each touching diagonall).  </p>
+<p>How should you plant your flowers?  That depends on what kind of hybrids you are trying to make and what color the parent flowers are.  First, it helps to understand how a flower breeds.  There are a few unclear details but here's the gist of what happens from the internal code:</p>
+<ol>
+<li>At the start of a new day (5:00 AM), pick an <em>available</em> flower at random</li>
+<li>If that flower has been watered and is fully grown, it has a chance to reproduce<ul>
+<li>The chance to reproduce depends on how many days it has been watered since last reproduction and how many of your friends have watered it that day.  </li>
+</ul>
+</li>
+<li>If the flower reproduction is successful, the flower will either:<ul>
+<li><strong>Self-clone</strong> if there are no <em>available</em> flowers of the same species to breed with OR</li>
+<li><strong>Breed</strong> if there is an <em>available</em> flower of the same species touching it.  The flower that it breeds with is chosen randomly if multiple are touching the reproducing flower.</li>
+</ul>
+</li>
+<li>Whether the flower <strong>self-clones</strong> or <strong>breeds</strong>, the offspring appears in an empty tile adjacent to the parent flower.  The parent flower(s) are marked as <em>unavailable</em>.</li>
+<li>Repeat steps 1-4 on the next randomly selected flower until all flowers have been considered. </li>
+</ol>
+<p>There are a couple of important things to note from this process.  First, breeders may need to be careful of self-cloning, even in beds of flowers where they are all touching.  We can exploit certain breeding patterns to make sure self-cloning doesn't happen.  Second, new flowers can appear in any open space, so we only need to leave open spaces for the number of new flowers that we are expecting.  This allows for planting patterns with more flowers and less open spaces to increase efficiency in that space.  </p>
+<p>With this information in mind, this page lists a few potentially useful patterns. The sections list patterns depending on the kind of breeding that you are trying to do. Many of these patterns come from <a href="https://docs.google.com/document/d/1anxm3WwEKyh0_-l_lZIAUETaa_q432Px3griacQ3NcU">Backwardsn’s Optimized ACNH Hybrid Recipes</a>, where Backwardsn and J_MASTER have done a lot of research into good layouts.  </p>
+<hr />
+<h2 id="patterns-for-breeding-identical-parent-flowers">Patterns for Breeding Identical Parent Flowers</h2>
+<p>The following patterns work well when you are trying to breed hybrids from two identical parents.  For example, when you're trying to make Blue Pansies from two White Pansy parents (seed flowers).  Since the parents are identical, we can make plots that hold many flowers to increase the number of potential new flowers and minimize the chance of self-cloning.  </p>
+<p>You don't need to have these exact sizes, feel free to size down to fit your space.  These patterns don't assume that you have open space on the outside.  They could be fenced off, or next to other plots of flowers <em>as long as they are of different species</em>.  </p>
+<h4>Turtle</h4>
+<p>A good pattern to consider, and works well for small plots of flowers.  </p>
 <p><center>
-<table>
-<tr>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-    <td> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-</tr>
-<tr>
-    <td> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-    <td> </td>
-</tr>
-<tr>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-    <td> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-</tr>
-</table>
+<img src="/img/layouts/turtle.png" alt="turtle layout" height="300" align="top"/><br />
 </center></p>
-<h2 id="cross-pattern">Cross Pattern</h2>
-<p>Similar idea to the cross pattern, but if there's no rare flower, you get 4 pairs of flowers that can hybridize using only 4 flowers.  Best for a bunch of the same flowers (e.g. White seed flowers).  </p>
+<h4>Hex-hole</h4>
+<p>Very space-efficient and works well when you don't have any visitors watering your flowers.  Slightly better than a grid pattern at reducing the chance of self-cloning, but you could go with either.    </p>
 <p><center>
-<table>
-<tr>
-    <td> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-    <td> </td>
-</tr>
-<tr>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-    <td> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-</tr>
-<tr>
-    <td> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/WbH1f0y.png" alt="drawing" height="40" align="top"/></td>
-    <td> </td>
-</tr>
-</table>
+<img src="/img/layouts/hex-hole.png" alt="hex-hole layout" height="400" align="top"/><br />
 </center></p>
-<h2 id="blocked-off-patterns">Blocked-off Patterns</h2>
-<p>When you are trying to make a specific type of flower, it may help to block off certain flowers in the above patterns to ensure that their clones don't appear.  The idea is that in ACNH, flowers can clone themselves.  I've never seen this happen in a breeding pattern where the flower is touching others of the same species, but just in case, you might use a blocked-off pattern.  This makes the most sense in an example.</p>
-<h3 id="example-blocked-off-x">Example: Blocked-off X</h3>
-<p>Say that we want to make Red (special) windflowers to eventually get Purple windflowers.  Red (special) windflowers are bred from Red (seed) and Blue windflowers.  Accordingly, we might set up the X pattern below.  But there's a problem!  The red flower in the middle might clone itself when watered, and we would have no way of distinguishing between the Red (special) flowers and the Red (seed) clones.  Because the clones can only appear next to the flower it's cloned from, we <strong>block off</strong> the red flower with some object.  You can use stone paths, fences, or other items for this.  Hybrids can appear in any space next to the blue flowers, and we know that these flowers are Red (special) windflowers.  </p>
+<!-- ### Grid
+
+Similar to hex-hole, but a bit worse in terms of the number of self-clones.  
+
+<center>
+<img src="/img/layouts/grid.png" alt="turtle layout" height="400" align="top"/>  
+</center> -->
+
+<h4>Super Turtle</h4>
+<p>A great pattern when you have multiple visitors watering your flowers.  It has more open space for flowers to appear in than hex-hole.  </p>
 <p><center>
-<table>
-<tr>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-</tr>
-</table>
+<img src="/img/layouts/super-turtle.png" alt="super turtle layout" height="550" align="top"/><br />
 </center></p>
-<p>The <span style="background-color:#808080; color:#ffffff;">"Grey spaces"</span> indicate a "blocked off" square.  Hybrids will appear in the open spaces on the outside of this flower block.  </p>
-<h2 id="blocked-off-pattern-large">Blocked-off Pattern (large)</h2>
-<p>When you have large plots of land available, you can create a large blocked-off pattern with an open space in the middle that may be more efficient.  Make sure to have open land on the outside of this pattern, as that is where the hybrids can appear.  A hybrid can also appear in the very center of this plot. </p>
+<h4>Diagonal</h4>
+<p>The diagonal layout here is shown as an example of what <strong>not</strong> to do.  Ultimately, it doesn't have enough flowers in the space to be worth it.  <strong>Choose other patterns</strong> unless you like how this pattern looks.</p>
 <p><center>
-<table>
-<tr>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td ></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/ZEV3HiA.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td bgcolor="#808080"> </td>
-    <td bgcolor="#c9df8a"><img src="https://i.imgur.com/enSgApS.png" alt="drawing" height="40" align="top"/></td>
-    <td ></td>
-</tr>
-<tr>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-    <td ></td>
-</tr>
-</table>
+<img src="/img/layouts/diagonal.png" alt="diagonal layout" height="400" align="top"/><br />
 </center></p>
+<hr />
+<h2 id="patterns-for-breeding-different-parent-flowers">Patterns for Breeding Different Parent Flowers</h2>
+<p>Because of the self-cloning problem, it also matters whether the desired offspring flowers are the same color as the parents or different colors.  </p>
+<h3 id="when-the-offspring-is-the-same-color-as-one-parent">When the offspring is the same color as one parent</h3>
+<p>When the offspring shares a color with one of the parents, you have to worry about self-cloning.  One of the parents might clone itself, and it would be impossible to tell whether the offspring has the desired genetics.  Choose one of these patterns to avoid self-cloning.  For example, this might be useful when trying to make Red (special) windflowers (the ones that can make purple windflowers) from a Red (seed) windflower and Blue windflower parent.  </p>
+<p>Previously, I've recommended patterns that block off certain parents.  However, the layouts here are slightly better, and the idea of blocking can be confusing (and ugly!), so I no longer mention it.  </p>
+<h4>Simple pairs</h4>
+<p>The simplest way to avoid self-cloning is to have pairs of flowers.  It doesn't matter whether these pairs are horizontal, vertical, or diagonal as long as they don't touch another flower of the same species.  </p>
+<p><strong>Note</strong>: If one of the flowers is lucky enough to reproduce, the other one is chosen and both are made unavailable.  This prevents the self-cloning of the other flower.  The problem with this layout is that you generally need space around the pairs.  This pair idea forms the basis for the other patterns one can use.  </p>
+<p><center>
+<img src="/img/layouts/pair.png" alt="pair layout" height="150" align="top"/><br />
+</center></p>
+<h4>5x1 pattern</h4>
+<p>Alternatively, you can use 5 flowers all in a line to avoid self-cloning.  Here, the Red windflower can't self clone, because it can't be excluded when a flower breeds.  <strong>Note</strong>: the flowers on the edges can still self-clone, so we could get Blue windflowers from the diagram below.  But if the blue windflowers self-clone, you know it was a clone, since we are trying to get Red (special) windflowers in this breeding scheme.  This pattern is very nice to line paths with but isn't as efficient as the <a href="#independent-pairs">independent pairs</a> layout.  </p>
+<p><center>
+<img src="/img/layouts/5x1.png" alt="5x1 layout" height="100" align="top"/><br />
+</center></p>
+<h4>Independent Pairs</h4>
+<p>When you have multiple species of flowers to breed, you can save a lot of space by using the independent pairs pattern.  The idea is to put alternating species of flowers together since they can't breed with each other.  You can choose either layout below, they perform similarly.  Both pack a large number of flowers into a small space.  The only downside is needing to breed two species.  </p>
+<p><center>
+<img src="/img/layouts/independent-pairs.png" alt="independent pair layout" height="350" align="top"/><br />
+</center></p>
+<p><center>
+<img src="/img/layouts/independent-pairs2.png" alt="alternative independent pair layout" height="350" align="top"/><br />
+</center></p>
+<h3 id="when-the-offspring-is-a-different-color">When the offspring is a different color</h3>
+<p>For example, if you're trying to breed Pink windflowers from Red (seed) and Yellow (seed) windflower parents.  Since the offspring is a different color than both parents, you don't have to worry about self-cloning.  The following patterns may work well, although the <a href="#when-the-offspring-is-the-same-color-as-one-parent">same-color offspring patterns</a> above still work and might be more efficient</p>
+<h4>Alternating Columns/Rows</h4>
+<p>This pattern can be used as either rows or columns and works well in longer/taller spaces.  Less space-efficient than an <a href="#independent-pairs">independent pairs</a> type approach.  You may get quite a few self-clones. </p>
+<p><center>
+<img src="/img/layouts/alternating-columns.png" alt="alternating columns layout" height="350" align="top"/><br />
+</center></p>
+<h4>Alternating Snake</h4>
+<p>Similar in spirit to the 5x1 layout, the alternating snake can be used to line paths.  Make sure that the corners have space but keep alternating.  It's probably not the best for large block spaces, but can be used creatively.  </p>
+<p><center>
+<img src="/img/layouts/alternating-snake.png" alt="alternating snake layout" height="350" align="top"/><br />
+</center></p>
+<h4>Checkerboard</h4>
+<p>This pattern works about as well as the <a href="#alternating-columnsrows">alternating columns/rows</a> pattern, but with slightly fewer self-clones.  You can modify this pattern to fit weird spaces, just keep the alternating checkerboard going as much as you can.  </p>
+<p><center>
+<img src="/img/layouts/checkerboard.png" alt="checkerboard layout" height="350" align="top"/><br />
+</center></p>
+<hr />
+<h2 id="patterns-for-cloning-flowers">Patterns for Cloning Flowers</h2>
+<p>When you have rare flowers, it can often be better to clone them to get more.  Some rare flowers can be used in patterns <a href="#patterns-for-breeding-identical-parent-flowers">like the ones when the parents are identical</a> when they have the genes to only make more of themselves.  Specifically, this works for Blue Roses, Black Roses, and Purple Hyacinths, Pansies, Tulips, or Windflowers and can save space.  If not, the following patterns can help in cloning.  </p>
+<h4>Cloning a single flower</h4>
+<p>Cloning a single flower is simple, just make sure no other flowers of the same species are touching it.  </p>
+<p><center>
+<img src="/img/layouts/cloning1.png" alt="layout for cloning 1 flower" height="350" align="top"/><br />
+</center></p>
+<h4>Cloning two flowers of different species</h4>
+<p>When you have two flowers to clone that are of different species, you can place them next to each other.  This is another nice way to line paths, just make sure you have open spaces on one side.  </p>
+<p><center>
+<img src="/img/layouts/cloning2.png" alt="layout for cloning 2 flowers" height="350" align="top"/><br />
+</center></p>
+<h4>Cloning four flowers of different species</h4>
+<p>When you have four flower species to clone, you can make the plots a bit denser, just keep open spaces on both sides.  </p>
+<p><center>
+<img src="/img/layouts/cloning4.png" alt="layout for cloning 4 flowers" height="350" align="top"/><br />
+</center></p>
+<hr />
+<h2 id="references-to-other-guides">References to other guides:</h2>
+<ul>
+<li>Backwardsn's Optimized ACNH Hybrid Recipes: <a href="https://docs.google.com/document/d/1anxm3WwEKyh0_-l_lZIAUETaa_q432Px3griacQ3NcU">Google Doc Link</a></li>
+<li>J_MASTER's ACNH Optimal dense block layouts: <a href="https://imgur.com/a/GuTVKyc">https://imgur.com/a/GuTVKyc</a></li>
+</ul>
+<!-- ## Blocked-off Patterns
+
+When you are trying to make a specific type of flower, it may help to block off certain flowers in the above patterns to ensure that their clones don't appear.  The idea is that in ACNH, flowers can clone themselves.  I've never seen this happen in a breeding pattern where the flower is touching others of the same species, but just in case, you might use a blocked-off pattern.  This makes the most sense in an example.
+
+
+### Example: Blocked-off X
+
+Say that we want to make Red (special) windflowers to eventually get Purple windflowers.  Red (special) windflowers are bred from Red (seed) and Blue windflowers.  Accordingly, we might set up the X pattern below.  But there's a problem!  The red flower in the middle might clone itself when watered, and we would have no way of distinguishing between the Red (special) flowers and the Red (seed) clones.  Because the clones can only appear next to the flower it's cloned from, we **block off** the red flower with some object.  You can use stone paths, fences, or other items for this.  Hybrids can appear in any space next to the blue flowers, and we know that these flowers are Red (special) windflowers.  
+
+The <span style="background-color:#808080; color:#ffffff;">"Grey spaces"</span> indicate a "blocked off" square.  Hybrids will appear in the open spaces on the outside of this flower block.  
+
+## Blocked-off Pattern (large)
+
+When you have large plots of land available, you can create a large blocked-off pattern with an open space in the middle that may be more efficient.  Make sure to have open land on the outside of this pattern, as that is where the hybrids can appear.  A hybrid can also appear in the very center of this plot. 
+ -->
                 
               
               
